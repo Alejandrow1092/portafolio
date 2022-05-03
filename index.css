@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --header-color: #11293E;
+    --header-color1: #161a1d;
+    --footer-color: #70798c;
+}
+
+@font-face{
+    font-family: "Ubuntu";
+    src: url("/Ubuntu/Ubuntu-Regular.ttf") format("tft");
+}
+
+body{
+    font-family: "Ubuntu", georgia, serif;
+}
+
+.header{
+    background-color: var(--header-color1);
+    color: white;
+    padding: 2rem 1rem;
+}
+
+.container{
+    
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+}
+
+.header ul{
+    list-style-type: none;
+    /* background-color: red; */
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header ul li{
+    display: inline-block;
+    background-color: black;
+    margin-left: 10px;
+    
+}
+
+.header ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    border: 4px rgba(255, 255, 255, 0) solid;
+    
+}
+
+.header ul li a:hover{
+    background-color: rgba(128, 128, 128, 0.438);
+    border-bottom: 4px white solid;
+}
+
+.nav-logo-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    background-color: #161a1d2d;
+    padding: 4rem;
+    text-align: center;
+}
+
+footer p{
+    font-size: 1.2rem;
+
+}
